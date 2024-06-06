@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk';
+    background-color: #F2E3D5;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.main-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.left-content{
+    width: 300px;
+    background-color: #026773;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+    background-color: #026773;
+    border: none;
+    color: #fff;
+    font-family: 'Hanken Grotesk';
+    border-bottom: #F2E3D5 solid 1px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+input::-webkit-input-placeholder{
+    color: #F2E3D5;
+    font-family: 'Hanken Grotesk';
+}
+
+#search{
+    padding: 8px 30px;
+    font-size: 17px;
+    background-color: #3CA6A6;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Hanken Grotesk';
+}
+
+#search:hover{
+    cursor: pointer;
+}
+
+.right-content{
+    width: 300px;
+    height: 400px;
+    background-color: #3CA6A6;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 17px;     
+}
+
+.right-content.found-book {
+    background-color: #3CA6A6;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 40px;
+}
+
+.right-content.not-found {
+    background-color: #e74c3c;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 20px 20px 0;
+}
+
+.right-content.not-found p{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.right-content.not-found h3{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.right-content.found-book h3{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+input[type="date"] {
+    color: #F2E3D5;
+}
+
