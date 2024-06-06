@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca TalentoTech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="main-container">
+        <div class="left-content">
+            <form id="search-book-form">
+                <input type="text" id="titulo" placeholder="Titulo" required>
+                <input type="number" id="isbn" placeholder="ISBN">
+                <input type="text" id="autor" placeholder="Autor">
+                <input type="date" id="fecha-edicion" placeholder="Fecha edición">
+                <button id="search" type="submit">Busca tu libro</button>
+            </form> 
+        </div>
+        <div class="right-content" id="right-content">
+          <h3>Tu libro aparecerá aquí...</h3>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
